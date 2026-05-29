@@ -14,7 +14,8 @@ ix)button
 import streamlit as st
 import pymongo
 import random
-conn=pymongo.MongoClient("mongodb+srv://kunalg15_db_user:<db_password>@citcapp.mong26u.mongodb.net/?appName=CitcApp")
+conn=pymongo.MongoClient("mongodb+srv://kunalg15_db_user:UchdhJoflEo7GMli@citcapp.mong26u.mongodb.net/?appName=CitcApp")
+
 mydb=conn["ojt2"]
 my=mydb["student"]
 
