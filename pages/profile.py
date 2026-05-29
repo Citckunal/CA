@@ -1,7 +1,7 @@
 import streamlit as st
 import pymongo
 from PIL import Image
-conn=pymongo.MongoClient("mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2")
+conn=pymongo.MongoClient("mongodb+srv://kunalg15_db_user:<db_password>@citcapp.mong26u.mongodb.net/?appName=CitcApp")
 mydb=conn["ojt2"]
 my=mydb["student"]
 @st.dialog("CHANGE PASSWORD")
