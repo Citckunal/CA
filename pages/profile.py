@@ -32,7 +32,8 @@ if c2.button("👤 See Profile",use_container_width=True):
               st.text_input("DOB",data["dob"])
               st.text_input("Mobile No",data["mobileno"])
                      
-b3=c3.button("📊 CV Analysis",use_container_width=True)
+if c3.button("📊 CV Analysis",use_container_width=True):
+       st.switch_page("cv.py")
 if c6.button("Logout",use_container_width=True):
        del st.session_state["username"]
        del st.session_state["password"]
