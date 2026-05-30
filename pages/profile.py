@@ -33,6 +33,6 @@ if c2.button("👤 See Profile",use_container_width=True):
               st.text_input("Mobile No",data["mobileno"])
                      
 b3=c3.button("📊 CV Analysis",use_container_width=True)
-if c6.button("Logout"):
+if c6.button("Logout",use_container_width=True):
        pass
 
