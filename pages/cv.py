@@ -2,6 +2,7 @@ import streamlit as st
 from pypdf import PdfReader
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
+import os
 st.title("C.V A n a l y z e r")
 st.success("User CV")
 save_dir = "./uploaded_files"
