@@ -34,5 +34,6 @@ if c2.button("👤 See Profile",use_container_width=True):
                      
 b3=c3.button("📊 CV Analysis",use_container_width=True)
 if c6.button("Logout",use_container_width=True):
-       pass
+       del session_state["username"]
+       del session_state["password"]
 
