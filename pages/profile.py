@@ -14,7 +14,7 @@ def cp():
 
 
        
-c1,c2,c3,c4=st.columns(4)
+c1,c2,c3,c6=st.columns(4)
 c4,c5=st.columns(2)
 c4.header("📊 CV Analysis..")
 if c1.button("🔒 Change Password",use_container_width=True):
@@ -33,6 +33,6 @@ if c2.button("👤 See Profile",use_container_width=True):
               st.text_input("Mobile No",data["mobileno"])
                      
 b3=c3.button("📊 CV Analysis",use_container_width=True)
-if c4.button("Logout"):
+if c6.button("Logout"):
        pass
 
